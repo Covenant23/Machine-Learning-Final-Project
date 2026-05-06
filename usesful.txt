@@ -1,0 +1,11 @@
+# Navigate to project directory
+cd /home/cadenug/ML\ Final\ Project/
+
+# Create directory structure
+mkdir -p src
+mkdir -p experiments/checkpoints
+mkdir -p experiments/results
+mkdir -p notebooks
+
+# Verify structure
+tree -L 2

@@ -1,0 +1,32 @@
+{
+  "Lung Opacity": {
+    "threshold": 0.35000000000000003,
+    "f1_optimal": 0.7138752746324151,
+    "f1_at_0.5": 0.6963481261382153,
+    "improvement_pct": 2.5170095008945124
+  },
+  "Pleural Effusion": {
+    "threshold": 0.35000000000000003,
+    "f1_optimal": 0.7612071491356578,
+    "f1_at_0.5": 0.7406575993661693,
+    "improvement_pct": 2.774500631205859
+  },
+  "Atelectasis": {
+    "threshold": 0.3,
+    "f1_optimal": 0.36495402920497566,
+    "f1_at_0.5": 0.20004808848280836,
+    "improvement_pct": 82.43314993551608
+  },
+  "Pneumothorax": {
+    "threshold": 0.5,
+    "f1_optimal": 0.5494059692842654,
+    "f1_at_0.5": 0.5494059692842654,
+    "improvement_pct": 0.0
+  },
+  "Pneumonia": {
+    "threshold": 0.25,
+    "f1_optimal": 0.14073226544622425,
+    "f1_at_0.5": 0.07345575959933222,
+    "improvement_pct": 91.58778864156439
+  }
+}

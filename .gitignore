@@ -1,0 +1,10 @@
+data/
+dataset/
+*.csv
+*.zip
+*.npy
+*.pt
+*.pth
+*.h5
+__pycache__/
+.ipynb_checkpoints/

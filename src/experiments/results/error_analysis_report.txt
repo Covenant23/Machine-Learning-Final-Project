@@ -1,0 +1,49 @@
+================================================================================
+ERROR ANALYSIS REPORT
+================================================================================
+
+OVERALL SUMMARY:
+  Total Errors: 15701
+  False Positives: 7605 (48.4%)
+  False Negatives: 8096 (51.6%)
+
+
+PER-DISEASE BREAKDOWN:
+--------------------------------------------------------------------------------
+
+Lung Opacity:
+  Total Errors: 6336
+  False Positives: 4199
+  False Negatives: 2137
+  Mean FP confidence: 0.658
+  Mean FN confidence: 0.348
+
+Pleural Effusion:
+  Total Errors: 3928
+  False Positives: 1844
+  False Negatives: 2084
+  Mean FP confidence: 0.684
+  Mean FN confidence: 0.293
+
+Atelectasis:
+  Total Errors: 3327
+  False Positives: 707
+  False Negatives: 2620
+  Mean FP confidence: 0.583
+  Mean FN confidence: 0.291
+
+Pneumothorax:
+  Total Errors: 1555
+  False Positives: 745
+  False Negatives: 810
+  Mean FP confidence: 0.699
+  Mean FN confidence: 0.190
+
+Pneumonia:
+  Total Errors: 555
+  False Positives: 110
+  False Negatives: 445
+  Mean FP confidence: 0.600
+  Mean FN confidence: 0.165
+
+================================================================================
