@@ -55,19 +55,49 @@ Our experiments demonstrate that:
 # Repository Structure
 
 ```text
-├── data/
-├── notebooks/
+chexpert-multi-label-classification/
+│
+├── README.md                          # Project overview and instructions
+├── requirements.txt                   # Python dependencies
+├── LICENSE                            # MIT or other license
+├── .gitignore                         # Ignore large files, checkpoints, cache
+│
 ├── src/
-│   ├── models/
-│   ├── training/
-│   ├── evaluation/
-│   ├── visualization/
-│   └── utils/
-├── figures/
-├── results/
-├── requirements.txt
-├── environment.yml
-└── README.md
+│   └── chexpert_utils.py              # All utility functions (models, training, evaluation)
+│
+├── notebooks/
+│   └── 01_train_models.ipynb          # Main training notebook
+│
+├── experiments/
+│   │
+│   └── results/                       # Metrics, histories, visualizations
+│       ├── simple_cnn_test_metrics.json
+│       ├── simple_cnn_history.json
+│       ├── densenet121_test_metrics.json
+│       ├── densenet121_history.json
+│       ├── densenet121_weighted_test_metrics.json
+│       ├── densenet121_weighted_history.json
+│       ├── densenet121_focal_test_metrics.json
+│       ├── densenet121_focal_history.json
+│       ├── optimal_thresholds.json
+│       ├── loss_function_comparison.csv
+│       ├── error_analysis_report.txt
+│       │
+│       └── figures/                   # All generated figures
+│           ├── class_distribution.png
+│           ├── ROC_Curve_Loss_Comparison.png
+│           ├── loss_comparison.png
+│           ├── threshold_optimization.png
+│           ├── augmentation_comparison.png
+│           ├── final_results.png
+│           ├── confusion_matrices.png
+│           ├── precision_recall_curves.png
+│           ├── error_analysis.png
+│           └── gradcam_examples/
+│               ├── lung_opacity_gradcam.png
+│               ├── pleural_effusion_gradcam.png
+│               └── ...
+
 ```
 
 ---
